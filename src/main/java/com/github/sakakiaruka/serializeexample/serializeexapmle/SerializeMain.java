@@ -47,6 +47,7 @@ public class SerializeMain implements CommandExecutor, TabCompleter {
             for(Map.Entry<String,Object> entry : serialized.entrySet()){
                 player.sendMessage("Key : "+entry.getKey());
                 player.sendMessage("Value : "+entry.getValue());
+                player.sendMessage("Value Class : "+entry.getValue().getClass());
             }
 
         }else if(args[0].equalsIgnoreCase("deserialize")){
