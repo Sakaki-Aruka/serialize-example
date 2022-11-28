@@ -1,0 +1,13 @@
+name: SerializeExapmle
+version: '${project.version}'
+main: com.github.sakakiaruka.serializeexample.serializeexapmle.SerializeExapmle
+api-version: 1.19
+authors: [ SakakiAruka ]
+description: serialize example
+commands:
+  serialize:
+    permission: serialize.exapmle
+
+permissions:
+  serialize.example:
+    default: true
